@@ -1,5 +1,6 @@
 import requests
 from twilio.rest import Client
+import os
 
 
 API_KEY = os.environ.get("OWM_API_KEY")
